@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="3D view with Vue+Babylonjs"/>
     <Box> </Box>
+    <HelloWorld msg="3D view with Vue+Babylonjs"/>
+    <img alt="Vue logo" src="./assets/logo.png">
   </div>
 </template>
 
