@@ -34,30 +34,38 @@ vue init webpack myProject
 
 - ESLint is a code linter: the most popular JavaScript linter, a tool that analyzes code for errors which can include stylistic errors but also coding errors that lead to bugs.
 
-- Prettier is a code formatter: an opinionated code formatter that comes with a pre set of rules designed to uniform code style across developers or project. 
+- Prettier is a code formatter: an opinionated code formatter that comes with a pre set of rules designed to uniform code style across developers or project.
 
 - vue create --default will give you eslint with recommended config (error prevention only) or check [here] (https://www.robinwieruch.de/prettier-eslint) to configure eslint with prettier.
 
+## BabylonJS
 
-## Project setup
+To start playing with 3D in Babylonjs
+```
+npm install vue-babylonjs babylonjs/core babylonjs/loaders
+```
+
+## Project setup to follow after git clone
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### To compile and hot-reload for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### To compile and minifie for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### To lint and fix files
 ```
 npm run lint
 ```
+
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
